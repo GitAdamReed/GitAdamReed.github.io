@@ -1,7 +1,8 @@
 .divHeading {
     position: absolute;
-    top: 0px;
-    bottom: 150px;
+    /*top: 0px;
+    bottom: 150px;*/
+    height: 500px;
     width: 100%;
     background-color: blue;
     text-align: center;
