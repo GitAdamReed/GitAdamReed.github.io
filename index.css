@@ -1,0 +1,10 @@
+heading {
+    height: 200px;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Segoe Print", Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+}
