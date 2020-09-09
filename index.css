@@ -1,12 +1,11 @@
 .divHeading {
     position: absolute;
-    height: 200px;
     width: 100%;
     background-color: blue;
+    text-align: center;
 }
 
 h1 {
     font-family: "Segoe Print", Arial, Helvetica, sans-serif;
     position: relative;
-    text-align: center;
 }
