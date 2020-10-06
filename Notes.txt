@@ -1,5 +1,5 @@
 TODO:
--Write an "About Me" section in between heading and gallery
+-Write an "About Me" section in between heading and gallery (done)
 -Implement white/dark mode, place buttons to switch between at right-side
  heading
 -Make other pages

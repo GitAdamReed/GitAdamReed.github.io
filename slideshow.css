@@ -6,8 +6,10 @@
   margin-left: auto;
   margin-right: auto;
   top: 175px;
-  max-width: 800px;
-  max-height: 600px;
+  max-width: 810px;
+  max-height: 610px;
+  border-width: 5px;
+  border-style: solid;
 }
 
 /* Slideshow container */
