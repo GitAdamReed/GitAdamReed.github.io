@@ -3,3 +3,4 @@ TODO:
 -Implement white/dark mode, place buttons to switch between at right-side
  heading
 -Make other pages
+-Potentially could make index.html background images random

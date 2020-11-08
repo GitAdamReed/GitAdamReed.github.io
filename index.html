@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="slideshow.css">
     <script src="slideshow.js"></script>
+    <script src="sidenav.js"></script>
     <style>
         .introP {
             position: relative;
@@ -23,6 +24,12 @@
 <body onload="showSlides(slideIndex)">
     <div class="divHeading" name="divHeading" id="divHeading">
         <h1>Welcome to My Online Portfolio!</h1>
+        <a href="javascript:void(0)" class="openbtn" onclick="openNav()"><img class="headingImg" src="images/compassIconEditScaled.png"></a>
+    </div>
+    <div class="sidenav" id="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="pygame.html">Python</a>
     </div>
     <div class="divBackground" name="divBackground" id="divBackground">
         <img class="backgroundImg img0" src="images/unity_bg_crop.png">
@@ -41,7 +48,7 @@
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
                 <div class="numbertext">1 / 2</div>
-                <img class= "slideshow-image" src="images/python_game.png">
+                <a href="pygame.html"><img class="slideshow-image" src="images/python_game.png"></a>
                 <div class="text">Caption Text</div>
             </div>
         
