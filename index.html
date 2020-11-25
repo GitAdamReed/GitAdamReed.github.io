@@ -3,31 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="slideshow.css">
     <script src="slideshow.js"></script>
-    <script src="sidenav.js"></script>
-    <style>
-        .introP {
-            position: relative;
-            top: 50px;
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 40%;
-            border-width: 2px;
-            border-style: solid;
-            font-family: "Segoe Print", Arial, Helvetica, sans-serif;
-        }
-    </style>
+    <script src="navbar.js"></script>
     <title>Adam Reed</title>
 </head>
-<body onload="showSlides(slideIndex)">
-    <div class="divHeading" name="divHeading" id="divHeading">
-        <h1>Welcome to My Online Portfolio!</h1>
-        <a href="javascript:void(0)" class="openbtn" onclick="openNav()"><img class="headingImg" src="images/compassIconEditScaled.png"></a>
+<body onload="showSlides(slideIndex), addListeners()">
+    <div class="navbar" name="navbar" id="navbar">
+        <!--<a href="javascript:void(0)" class="openBtn" onclick="openNav()"><img class="navImg"
+            id="navImg" src="images/compassIconEditWhite.png"></a>-->
+        <!--<a href="index.html" id="homeBtn">Home</a>-->
+        <ul>
+            <li><a href="index.html" id="homeBtn">Home</a></li>
+            <li><a href="index.html" class="navRightItems">C#</a></li>
+            <li><a href="pygame.html" class="navRightItems">Python</a></li>
+        </ul>
     </div>
     <div class="sidenav" id="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="pygame.html">Python</a>
     </div>
@@ -35,6 +30,7 @@
         <img class="backgroundImg img0" src="images/unity_bg_crop.png">
         <img class="backgroundImg img1" src="images/unity2.png">
     </div>
+    <h1>Welcome to My Online Portfolio!</h1>
     <div class="introP">
         <p>Hello and welcome to my online portfolio! Here you can find some of my work that I have 
             done over the years. It includes projects that I have done for university and in

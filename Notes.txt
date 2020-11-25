@@ -2,5 +2,11 @@ TODO:
 -Write an "About Me" section in between heading and gallery (done)
 -Implement white/dark mode, place buttons to switch between at right-side
  heading
--Make other pages
 -Potentially could make index.html background images random
+
+PAGES:
+-Python
+-C# / Unity
+-Dissertation (could be a part of the Python page)
+-JavaScript (tank game)
+-Group Website
