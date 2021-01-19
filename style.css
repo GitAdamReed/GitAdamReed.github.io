@@ -87,6 +87,15 @@
     margin-left: 50px;
 }
 
+.footer {
+    position: relative;
+    padding: 80px;
+    color: rgba(140, 138, 148, 0.2);
+    font-size: 14px;
+    text-align: center;
+    background-color: #0b0917;
+}
+
 .divBackground {
     position: absolute;
     z-index: -1;
@@ -94,20 +103,21 @@
     height: 100%;
 }
 
-.backgroundImg {
+.bgImg {
     overflow: hidden;
     opacity: 0.5;
 }
 
-body {
-    margin: 0;
+.bgImgPage {
+    width: 100%;
+    height: auto;
+    z-index: -1;
 }
 
-h1 {
-    position: relative;
-    font-family: "Segoe Print", Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 50px;
+/* Make separate CSS files for each page to display background
+and then maybe later use JS to have dynamic backgrounds */
+body {
+    margin: 0;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the 

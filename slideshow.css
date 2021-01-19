@@ -18,6 +18,15 @@
   background-color: #0b0917;
 }
 
+.slideshow-container-page {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  /*background-color: #0b0917;*/
+}
+
 .slideshow-image {
   display: block;
   margin-left: auto;
@@ -26,9 +35,40 @@
   height: 600px;
 }
 
+/* Could use two different divs for img and p ??? */
+
+.slideshow-image-page {
+  width: auto;
+  height: auto;
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
+}
+
+.mySlidesPage {
+  padding: 35px 10px;
+}
+
+.mySlidesPage h1, .mySlidesPage p {
+  position: absolute;
+  top: 55px;
+  right: 10px;
+  width: 40%;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.mySlidesPage p {
+  top: 110px;
+  font-size: 20px;
+}
+
+.mySlidesPage img {
+  width: 720px;
+  height: 540px;
 }
 
 /* Next & previous buttons */
@@ -80,14 +120,34 @@
   top: 0;
 }
 
+/* Text to describe current image */
+.imgText {
+  position: absolute;
+  top: 55px;
+  right: 10px;
+  width: 40%;
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border: 5px solid black;
+}
+
 .dotDiv {
   position: relative;
-  bottom: 20px;
   z-index: 2;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.dotDivIndex {
+  bottom: 20px;
+}
+
+.dotDivPage {
+  bottom: 0px;
 }
 
 /* The dots/bullets/indicators */

@@ -2,7 +2,9 @@ TODO:
 -Write an "About Me" section in between heading and gallery (done)
 -Implement white/dark mode, place buttons to switch between at right-side
  heading
--Potentially could make index.html background images random
+-Potentially could make index.html (and other pages) background images random
+-Can make a timed slideshow background, showing different images relevent to 
+ each page, use animations to fade out current image and fade in next image
 
 PAGES:
 -Python

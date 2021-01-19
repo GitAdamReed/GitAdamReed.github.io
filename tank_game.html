@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tanks.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <script src="slideshow.js"></script>
+    <!--script src="random_bg.js"></script-->
+    <title>JavaScript Game</title>
+</head>
+<body onload="showSlides(slideIndex), addListeners()">
+    <div class="navbar" name="navbar" id="navbar">
+        <ul>
+            <li><a href="index.html" id="homeBtn">Home</a></li>
+            <li><a href="index.html" class="navRightItems">C#</a></li>
+            <li><a href="pygame.html" class="navRightItems">Python</a></li>
+        </ul>
+    </div>
+    <div class="slideshow-container-page">
+        <div class="mySlides mySlidesPage fade">
+            <img class="slideshow-image-page" src="images/tank_1_h540.png">
+            <h1>Image 1</h1></br>
+            <p>This image is cool</p>
+        </div>
+
+        <div class="mySlides mySlidesPage fade">
+            <img class="slideshow-image-page" src="images/tank_3_h540.png">
+            <h1>Image 2</h1></br>
+            <p>This image is lame</p>
+        </div>
+
+        <div class="mySlides mySlidesPage fade">
+            <img class="slideshow-image-page" src="images/tank_4_h540.png">
+            <h1>Image 3</h1></br>
+            <p>This image is quite cool</p>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- The dots/circles -->
+        <div class="dotDiv dotDivPage">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Email: adamreed170@gmail.com</p>
+        <p>Made by Adam Reed</p>
+    </div>
+</body>
+</html>
