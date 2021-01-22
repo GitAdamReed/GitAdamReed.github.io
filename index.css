@@ -16,6 +16,11 @@
     background-color: rgba(69, 69, 70, 0.2);
 }
 
+.introP p {
+    padding: 5px;
+    font-size: 18px;
+}
+
 /* Image 0 height is 694 */
 
 .bgImg {
@@ -34,9 +39,4 @@ h1 {
 
 h2 {
     padding: 5px;
-}
-
-p {
-    padding: 5px;
-    font-size: 18px;
 }
