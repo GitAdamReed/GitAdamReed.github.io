@@ -31,16 +31,16 @@
   padding: 10px 0;
   margin-left: auto;
   margin-right: auto;
-  width: 50vw;
-  height: 40vw;
+  width: 800px;
+  height: 600px;
 }
 
-/*@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .slideshow-image {
-    width: 50vw;
-    height: 40vw;
+    width: 50%;
+    height: 50%;
   }
-}*/
+}
 
 /* Could use two different divs for img and p ??? */
 

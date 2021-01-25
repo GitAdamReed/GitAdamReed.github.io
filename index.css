@@ -1,10 +1,10 @@
 .textWrapper {
-    position: absolute;
-    top: 7vw;
-    /* Change to relative to avoid screen resizing issues 
-    Could potenially use divBackground to structure things???
-    top: 7vw; */
+    position: relative;
+    bottom: 20px;
     width: 100%;
+    height: 700px;
+    background-image: url(images/unity_bg_opacity50.png);
+    background-size: cover;
 }
 
 .introP {
@@ -14,19 +14,18 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 80%;
-    max-height: 50%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(69, 69, 70, 0.2);
 }
 
 .introP p {
     padding: 5px;
-    /*font-size: 18px;*/
+    font-size: 18px;
     font-size: 1.2vw;
 }
 
 .introP li {
-    font-size: 1.2vw;
+    font-size: 18px;
 }
 
 /*@media screen and (max-width: 800px) {
@@ -57,13 +56,12 @@
 
 h1 {
     position: relative;
-    top: 5px;
+    top: 0px;
+    padding: 20px 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2vw;
     text-align: center;
 }
 
 h2 {
     padding: 5px;
-    font-size: 1.6vw;
 }

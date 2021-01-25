@@ -11,6 +11,9 @@
     transition: 0.5s;
 }
 
+/* Use the responsive topnav page on w3s
+Remove fixed height to make it more repsonsive */
+
 .navImg {
     position: absolute;
     top: 25px;
@@ -86,6 +89,8 @@
     font-size: 36px;
     margin-left: 50px;
 }
+
+/* May have to use vw units for padding on footer to make it responsive */
 
 .footer {
     position: relative;
