@@ -1,8 +1,10 @@
 .textWrapper {
     position: absolute;
+    /* Change to relative to avoid screen resizing issues 
+    Could potenially use divBackground to structure things???
+    top: 7vw; */
     top: 100px;
     width: 100%;
-    z-index: 1;
 }
 
 .introP {
@@ -12,13 +14,23 @@
     margin-right: auto;
     max-width: 80%;
     font-family: Arial, Helvetica, sans-serif;
-    /*background-color: rgba(11, 9, 23, 0.2);*/
     background-color: rgba(69, 69, 70, 0.2);
 }
 
 .introP p {
     padding: 5px;
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 1.2vw;
+}
+
+@media screen and (max-width: 800px) {
+    .introP, .introP p, p {
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
 }
 
 /* Image 0 height is 694 */
@@ -34,9 +46,11 @@
 h1 {
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8vw;
     text-align: center;
 }
 
 h2 {
     padding: 5px;
+    font-size: 1.5vw;
 }
