@@ -20,10 +20,10 @@
 .introP p {
     padding: 5px;
     /*font-size: 18px;*/
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
-@media screen and (max-width: 800px) {
+/*@media screen and (max-width: 800px) {
     .introP, .introP p, p {
         font-size: 10px;
     }
@@ -31,7 +31,7 @@
     h1 {
         font-size: 18px;
     }
-}
+}*/
 
 /* Image 0 height is 694 */
 
@@ -46,11 +46,11 @@
 h1 {
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8vw;
+    font-size: 2vw;
     text-align: center;
 }
 
 h2 {
     padding: 5px;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
 }
