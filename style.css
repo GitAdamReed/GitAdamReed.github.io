@@ -95,7 +95,7 @@ Remove fixed height to make it more repsonsive */
 .footer {
     position: relative;
     top: 100%;
-    padding: 80px;
+    padding: 3vw;
     color: rgba(140, 138, 148, 0.2);
     font-size: 14px;
     text-align: center;
