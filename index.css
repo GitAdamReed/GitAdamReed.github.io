@@ -1,14 +1,15 @@
 .textWrapper {
     position: absolute;
+    top: 100px;
     /* Change to relative to avoid screen resizing issues 
     Could potenially use divBackground to structure things???
     top: 7vw; */
-    top: 100px;
     width: 100%;
 }
 
 .introP {
     position: relative;
+    overflow: auto;
     top: 70px;
     margin-left: auto;
     margin-right: auto;
@@ -20,7 +21,11 @@
 .introP p {
     padding: 5px;
     /*font-size: 18px;*/
-    font-size: 1vw;
+    font-size: 1.2vw;
+}
+
+.introP li {
+    font-size: 1.2vw;
 }
 
 /*@media screen and (max-width: 800px) {
@@ -34,6 +39,12 @@
 }*/
 
 /* Image 0 height is 694 */
+
+.divBackground {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 
 .bgImg {
     position: relative;
