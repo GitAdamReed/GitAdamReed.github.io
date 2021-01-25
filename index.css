@@ -1,6 +1,6 @@
 .textWrapper {
     position: absolute;
-    top: 100px;
+    top: 7vw;
     /* Change to relative to avoid screen resizing issues 
     Could potenially use divBackground to structure things???
     top: 7vw; */
