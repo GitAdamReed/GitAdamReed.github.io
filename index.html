@@ -6,31 +6,26 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="slideshow.js"></script>
     <script src="navbar.js"></script>
     <title>Adam Reed</title>
 </head>
 <body onload="showSlides(slideIndex)">
     <div class="navbar" name="navbar" id="navbar">
-        <!--<a href="javascript:void(0)" class="openBtn" onclick="openNav()"><img class="navImg"
-            id="navImg" src="images/compassIconEditWhite.png"></a>-->
-        <!--<a href="index.html" id="homeBtn">Home</a>-->
         <ul>
             <li><a href="index.html" id="homeBtn">Home</a></li>
             <li><a href="index.html" class="navRightItems">C#</a></li>
             <li><a href="pygame.html" class="navRightItems">Python</a></li>
+            <li>
+                <a href="javascript:void(0);" class="icon" onclick="navResponsive()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
         </ul>
     </div>
-    <div class="sidenav" id="sidenav">
-        <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Home</a>
-        <a href="pygame.html">Python</a>
-    </div>
-    <!--div class="divBackground" name="divBackground" id="divBackground">
-        <img class="bgImg" src="images/unity_bg_crop.png">
-    </div-->
     <div class="textWrapper">
-        <h1>Welcome to My Online Portfolio!</h1>
+        <h1>Welcome to My Online Portfolio!</h1></br>
         <div class="introP">
             <h2>Introduction</h2>
             <p>Hello and welcome to my online portfolio! Here you can find some of my work that I have 

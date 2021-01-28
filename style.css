@@ -9,29 +9,12 @@
     border-width: 2px;
     border-style: solid;
     transition: 0.5s;
-}
-
-/* Use the responsive topnav page on w3s
-Remove fixed height to make it more repsonsive */
-
-.navImg {
-    position: absolute;
-    top: 25px;
-    left: 20px;
-    transition: 2s;
+    overflow: hidden;
 }
 
 .navbar ul {
     list-style-type: none;
 }
-
-/*.navbar li {
-    float: right;
-}
-
-.navbar li a {
-    margin-right: 20px;
-}*/
 
 .navbar a {
     padding: 10px;
@@ -52,8 +35,39 @@ Remove fixed height to make it more repsonsive */
     margin-right: 20px;
 }
 
+.navbar .icon {
+    display: none;
+}
+
 #homeBtn {
     float: left;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar .navRightItems {display: none;}
+    .navbar .icon {
+        float: right;
+        display: block;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+    .navbar.responsive {
+        position: sticky;
+        position: -webkit-sticky;
+        height: 200px;
+    }
+    .navbar.responsive a.icon {
+        position: absolute;
+        display: block;
+        top: 16px;
+        right: 0;
+    }
+    .navbar.responsive a {
+        float: none;
+        clear: both;
+        display: block;
+        text-align: left;
+    }
 }
 
 .sidenav {

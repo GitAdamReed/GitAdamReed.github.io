@@ -1,8 +1,8 @@
 .textWrapper {
     position: relative;
-    bottom: 20px;
     width: 100%;
     height: 700px;
+    margin-top: -20px;
     background-image: url(images/unity_bg_opacity50.png);
     background-size: cover;
 }
@@ -28,31 +28,7 @@
     font-size: 18px;
 }
 
-/*@media screen and (max-width: 800px) {
-    .introP, .introP p, p {
-        font-size: 10px;
-    }
-
-    h1 {
-        font-size: 18px;
-    }
-}*/
-
 /* Image 0 height is 694 */
-
-.divBackground {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.bgImg {
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
-    opacity: 0.5;
-}
 
 h1 {
     position: relative;
