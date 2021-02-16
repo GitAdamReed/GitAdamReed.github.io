@@ -48,6 +48,7 @@
   display: inline-block;
   width: 720px;
   height: 540px;
+  border: solid 5px black;
 }
 
 /* Hide the images by default */
@@ -63,15 +64,16 @@
 /* Navbar is 80px */
 .textWrapperPage {
   position: absolute;
-  top: 40px;
-  right: 70px;
-  width: 35%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 100px;
+  width: 500px;
   max-height: 500px;
   color: black;
   padding: 10px;
   text-align: center;
   overflow: auto;
-  background-color: rgba(69, 69, 70, 0.5);
+  background-color: rgba(69, 69, 70, 0.2);
   border-radius: 10px;
 }
 
@@ -111,7 +113,7 @@
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: rgb(139, 139, 139);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -221,11 +223,7 @@ h1 {
 /* May have to restructure the page for it to look good on small screens
 Maybe place image at the top and text below, pushing the content downwards
 and making it look more evenly distributed on small screens */
-@media screen and (max-width: 1000px) {
-  .slideshow-image {
-    width: 60vw;
-    height: 50vw;
-  }
+@media screen and (max-width: 1250px) {
   .slideshow-image-page {
     left: 0;
     width: 60vw;
@@ -237,18 +235,22 @@ and making it look more evenly distributed on small screens */
   }
   .textWrapperPage {
     position: relative;
-    top: -10px;
+    transform: translateY(0%);
     right: 0;
     margin-left: auto;
     margin-right: auto;
     display: block;
     width: 50%;
   }
-  .mySlidesPage {
-    
+}
+
+@media screen and (max-width: 1000px) {
+  .slideshow-image {
+    width: 60vw;
+    height: 50vw;
   }
   .mySlidesPage h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .mySlidesPage p {
     font-size: 12px;

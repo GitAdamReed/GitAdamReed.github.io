@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/tanks.css">
+    <link rel="stylesheet" href="../css/ml5.css">
     <link rel="stylesheet" href="../css/slideshow.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../js/slideshow.js"></script>
     <script src="../js/navbar.js"></script>
-    <!--script src="random_bg.js"></script-->
-    <title>JavaScript Game</title>
+    <title>AI</title>
 </head>
 <body onload="showSlides(slideIndex)">
     <div class="navbar" name="navbar" id="navbar">
@@ -26,58 +26,58 @@
             </li>
         </ul>
     </div>
-    <div class="slideshow-container-page tank">
+
+    <div class="slideshow-container-page ml5">
         <div class="mySlides mySlidesPage fade">
             <div class="textWrapperPage">
-                <h1>Tank Game</h1>
+                <h1>ml5.js Implementation</h1>
                 <p>
-                    This small game was made using the PlayCanvas API. 
-                    PlayCanvas is a video game API that uses JavaScript and is mostly used for 
-                    creating games for web browsers or mobile phones. PlayCanvas is mainly used 
-                    like a regular game engine such as Unity, with all the tools that come with 
-                    that sort of development environment. However, this project solely used the 
-                    scripting API of PlayCanvas without the game engine’s tools.
+                    Hello World
                 </p>
             </div>
-            <img class="slideshow-image-page" src="../images/tank_1_h540.png">
+            <img class="slideshow-image-page" src="../images/ml5_1_w720.png">
         </div>
 
         <div class="mySlides mySlidesPage fade">
             <div class="textWrapperPage">
-                <h1>The Tank</h1>
+                <h1>ml5.js Implementation</h1>
                 <p>
-                    The main character in the game which the player controls is a hovering tank 
-                    which can move quickly in all X and Z directions. The tank comes equipped 
-                    with a 360° rotational turret which can be elevated to fire at high angles.
+                    Hello World
                 </p>
             </div>
-            <img class="slideshow-image-page" src="../images/tank_3_h540.png">
+            <img class="slideshow-image-page" src="../images/page2_cropped.png">
         </div>
 
         <div class="mySlides mySlidesPage fade">
             <div class="textWrapperPage">
-                <h1>Objective</h1>
+                <h1>Result</h1>
                 <p>
-                    Objects will periodically spawn above the tank which can be destroyed. 
-                    The tank and the projectiles it fires are all affected by gravity, so the 
-                    player should account for the drop of the projectiles when targeting one of 
-                    the objects. The tank, however, employs a force which allows it to hover above 
-                    the ground, against the force of gravity. PlayCanvas provides a fully 
-                    functional physics engine, which is used here for the gravity.
+                    Hello World
                 </p>
             </div>
-            <img class="slideshow-image-page" src="../images/tank_4_h540.png">
+            <img class="slideshow-image-page" src="../images/ml5_result_h540.png">
+        </div>
+
+        <div class="mySlides mySlidesPage fade">
+            <div class="textWrapperPage">
+                <h1>Console</h1>
+                <p>
+                    Hello World
+                </p>
+            </div>
+            <img class="slideshow-image-page" src="../images/ml5_console_w720.png">
         </div>
 
         <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
+    
         <!-- The dots/circles -->
         <div class="dotDiv">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
         </div>
     </div>
     <div class="footer">

@@ -12,3 +12,8 @@ PAGES:
 -Dissertation (could be a part of the Python page)
 -JavaScript (tank game)
 -Group Website
+-AI car make identifier (uses ml5.js)
+
+FOR AI CAR PAGE:
+Make a background using GIMP tools, maybe combining Jaguar and BMW
+images in one background image
