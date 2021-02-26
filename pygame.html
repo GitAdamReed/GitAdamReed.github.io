@@ -33,30 +33,72 @@
             <div class="textWrapperContent">
                 <h1>Image 1</h1>
                 <p>
-                    
+                    This is one of the first fully functional python games I have made. 
+                    pygame was used to develop this project. It is based on the card game Blackjack. 
+                    The player must beat the dealer 
+                    by having a higher score, each card in a hand has a value assigned to it 
+                    which makes up the score. If the score of the player or dealer is 
+                    greater than 21, the opponent wins. If a card has a number, that is 
+                    the value of the card. If the card is a Jack, Queen or King, the value 
+                    is 10. An Ace can be 1 or 11 depending on the circumstances. 
+                    The way it is coded here is that if the players hand value is greater 
+                    than 11, an Ace is only worth 1, this prevents automatically “busting” the hand.
                 </p>
             </div>
-            <img class="slideshowImageContent" src="images/tank_1_h540.png">
+            <img class="slideshowImageContent" src="images/python_game.png">
         </div>
 
         <div class="mySlides mySlidesContent fade">
             <div class="textWrapperContent">
                 <h1>Image 2</h1>
                 <p>
-                    
+                    The player, as displayed onscreen, can press enter to “hit” or 
+                    get another card, and can press space to “stand” or receive no 
+                    more cards and let the dealer play. Each new card is displayed 
+                    slightly to the right of the last to clearly show the full hand.
                 </p>
             </div>
-            <img class="slideshowImageContent" src="images/tank_3_h540.png">
+            <img class="slideshowImageContent" src="images/python_game_play_1.png">
         </div>
 
         <div class="mySlides mySlidesContent fade">
             <div class="textWrapperContent">
                 <h1>Image 3</h1>
                 <p>
-                    
+                    The player should stand when they think they have a strong enough 
+                    hand to beat the dealer. In this example, the player has stood at a 
+                    hand value of 17. When the player stands, the dealer then plays and 
+                    receives cards in an attempt to beat the player. Here we can see 
+                    that the dealer got lucky this time and got a hand value of 18. 
+                    In this instance, the player loses.
                 </p>
             </div>
-            <img class="slideshowImageContent" src="images/tank_4_h540.png">
+            <img class="slideshowImageContent" src="images/python_game_play_2.png">
+        </div>
+
+        <div class="mySlides mySlidesContent fade">
+            <div class="textWrapperContent">
+                <h1>Image 4</h1>
+                <p>
+                    The player can also lose by busting. This is when a hand has a value 
+                    greater than 21. Here we can see the player hit and busted. The player 
+                    then automatically loses, and the dealer wins.
+                </p>
+            </div>
+            <img class="slideshowImageContent" src="images/python_game_bust.png">
+        </div>
+
+        <div class="mySlides mySlidesContent fade">
+            <div class="textWrapperContent">
+                <h1>Image 5</h1>
+                <p>
+                    Alternatively, the player can win if the dealer busts. In the image shown, 
+                    the dealer attempts to beat the player but ends up drawing a seven from the 
+                    deck. This makes their hand value equal to 25, which is above 21, so they bust 
+                    and the player wins.
+                </p>
+            </div>
+            <img class="slideshowImageContent" src="images/python_game_win.png">
         </div>
 
         <!-- Next and previous buttons -->
@@ -68,6 +110,8 @@
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
         </div>
     </div>
 
