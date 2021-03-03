@@ -17,3 +17,7 @@ PAGES:
 FOR AI CAR PAGE:
 Make a background using GIMP tools, maybe combining Jaguar and BMW
 images in one background image
+NOTE ABOUT LOSS VALUE: Loss value implies how well or poorly a certain model behaves after each 
+iteration of optimization. Ideally, one would expect the reduction of loss 
+after each, or several, iteration(s). The accuracy of a model is usually determined 
+after the model parameters are learned and fixed and no learning is taking place
