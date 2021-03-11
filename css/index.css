@@ -12,7 +12,6 @@
 .introP {
     position: relative;
     overflow: auto;
-    top: 30px;
     margin-left: auto;
     margin-right: auto;
     max-width: 80%;
