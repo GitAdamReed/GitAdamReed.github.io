@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/slideshow.js"></script>
     <script src="js/navbar.js"></script>
+    <script>
+        function scroll() {
+
+        }
+    </script>
     <title>Adam Reed</title>
 </head>
 <body onload="showSlides(slideIndex)">
@@ -15,10 +20,10 @@
         <ul>
             <li><a href="index.html" id="homeBtn">Home</a></li>
             <li><a href="tank_game.html" class="navRightItems">JS</a></li>
-            <li><a href="pygame.html" class="navRightItems">Python</a></li>
+            <li><a href="python.html" class="navRightItems">Python</a></li>
             <li><a href="ai.html" class="navRightItems">ml5.js</a></li>
+            <li><a href="c_sharp.html" class="navRightItems">C#</a></li>
             <li><a href="website.html" class="navRightItems">Website</a></li>
-            <li><a href="diss.html" class="navRightItems">Uni Diss</a></li>
             <li>
                 <a href="javascript:void(0);" class="icon" onclick="navResponsive()">
                     <i class="fa fa-bars"></i>
@@ -26,16 +31,19 @@
             </li>
         </ul>
     </div>
+
     <div class="textWrapper">
         <h1>Welcome to My Online Portfolio!</h1></br>
         <div class="introP">
             <h2>Introduction</h2>
-            <p>Hello and welcome to my online portfolio! Here you can find some of my work that I have 
+            <p>
+                Hello and welcome to my online portfolio! Here you can find some of my work that I have 
                 done over the years. It includes projects that I have done for university and in
                 my spare time. Many of these projects were created using various programming languages
                 including Python, C# and more.
             </p>
-            <p>Have a look below or use the navbar at the top of each page to navigate throughout
+            <p>
+                Have a look below or use the navbar at the top of each page to navigate throughout
                 this portfolio and take a look at some of my projects!
             </p>
             <p>This portfolio was created from scratch using HTML, CSS and JavaScript.</p>
@@ -45,18 +53,39 @@
                 <li><a href="https://github.com/MiniAddman/MiniAddman.github.io">Website Github</a></li>
                 <li><a>Project Github</a></li>
             </ul>
+            <h2>Slideshow</h2>
+            <p>
+                Click 
+                <a href="javascript:void(0)" onclick="window.scrollTo({top: 702, behavior: 'smooth'})">here</a> 
+                to go to the slideshow navigation.</p>
         </div>
+        <!--div class="scroll">
+            <h2>Slideshow</h2>
+            <a href="javascript:void(0)" onclick="window.scrollTo({top: 702, behavior: 'smooth'})">
+                <i class="fa fa-chevron-down"></i>
+            </a>
+        </div-->
     </div>
+
     <div class="slideshowContainer">
-        <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-            <div class="text">Caption Text</div>
-            <a href="pygame.html"><img class="slideshowImage" src="images/python_game.png"></a>
+            <h2>Python</h2>
+            <a href="python.html"><img class="slideshowImage" src="images/Environment.PNG"></a>
         </div>
     
         <div class="mySlides fade">
-            <div class="text">Caption Two</div>
-            <img class="slideshowImage" src="images/image2.jpg">
+            <h2>JavaScript</h2>
+            <a href="tank_game.html"><img class="slideshowImage" src="images/tank_3_w800.png"></a>
+        </div>
+
+        <div class="mySlides fade">
+            <h2>C#</h2>
+            <a href="c_sharp.html"><img class="slideshowImage" src="images/unity_1_crop.png"></a>
+        </div>
+
+        <div class="mySlides fade">
+            <h2>Group Website</h2>
+            <a href="website.html"><img class="slideshowImage" src="images/web_csquiz_800x600.png"></a>
         </div>
     
         <!-- Next and previous buttons -->
@@ -67,7 +96,8 @@
         <div class="dotDiv dotDivIndex">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
-            <!--span class="dot" onclick="currentSlide(3)"></span-->
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
         </div>
     </div>
     <div class="footer">
