@@ -1,0 +1,11 @@
+/* USE mobile_coin AS THE BG IMAGE */
+.lua {
+    background-image: url("../images/mobile_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lua img {
+    left: 260px;
+    width: 280px;
+}
