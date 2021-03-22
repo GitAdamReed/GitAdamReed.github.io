@@ -6,6 +6,18 @@
 }
 
 .lua img {
-    left: 260px;
+    left: 220px;
     width: 280px;
+}
+
+@media screen and (max-width: 1250px) {
+    .lua img {
+        left: 0;
+        width: 19vw;
+        height: 40vw;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }

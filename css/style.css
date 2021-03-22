@@ -54,7 +54,7 @@
     .navbar.responsive {
         position: sticky;
         position: -webkit-sticky;
-        height: 200px;
+        height: 320px;
     }
     .navbar.responsive a.icon {
         position: absolute;
@@ -127,11 +127,11 @@
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
-    padding: 10px 12px;
+    margin-top: -44px;
+    padding: 20px 22px;
     color: rgb(53, 53, 53);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 36px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
