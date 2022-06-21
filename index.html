@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/slideshow.js"></script>
     <script src="js/navbar.js"></script>
-    <script>
-        function scroll() {
-
-        }
-    </script>
     <title>Adam Reed</title>
 </head>
 <body onload="showSlides(slideIndex)">
@@ -23,7 +18,7 @@
             <li><a href="javascript.html" class="navRightItems">JS</a></li>
             <li><a href="c_sharp.html" class="navRightItems">C#</a></li>
             <li><a href="website.html" class="navRightItems">Web</a></li>
-            <li><a href="lua.html" class="navRightItems">Lua</a></li>
+            <!--li><a href="lua.html" class="navRightItems">Lua</a></li-->
             <li>
                 <a href="javascript:void(0);" class="icon" onclick="navResponsive()">
                     <i class="fa fa-bars"></i>
@@ -32,8 +27,12 @@
         </ul>
     </div>
 
+    <div class="introImg">
+        <img src="images/unity_bg_crop.png">
+        <h1>Welcome to My Online Portfolio!</h1>
+    </div>
+
     <div class="textWrapper">
-        <h1>Welcome to My Online Portfolio!</h1></br>
         <div class="introP">
             <h2>Introduction</h2>
             <p>
@@ -49,7 +48,7 @@
             <p>This portfolio was created from scratch using HTML, CSS and JavaScript.</p>
             <h2>Useful Links</h2>
             <ul>
-                <li>Email: adamreed170@gmail.com (also found in the footer)</li>
+                <li><a href="mailto:adamreed170@gmail.com">adamreed170@gmail.com</a></li>
                 <li><a href="https://github.com/MiniAddman/MiniAddman.github.io">Website Github</a></li>
                 <!--li><a>Project Github</a></li-->
             </ul>
@@ -88,7 +87,7 @@
             <a href="website.html"><img class="slideshowImage" src="images/web_csquiz_800x600.png" title="Go to Web Dev Page"></a>
         </div>
 
-        <style>
+        <!--style>
             .lua img {
                 width: 280px;
             }
@@ -97,7 +96,7 @@
         <div class="mySlides fade lua">
             <h2>Lua</h2>
             <a href="lua.html"><img class="slideshowImage" src="images/mobile_coin.png" title="Go to Lua Page"></a>
-        </div>
+        </div-->
     
         <!-- Next and previous buttons -->
         <a class="prev indexColor" onclick="plusSlides(-1)">&#10094;</a>

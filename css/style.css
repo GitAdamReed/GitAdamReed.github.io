@@ -180,6 +180,7 @@
 and then maybe later use JS to have dynamic backgrounds */
 body {
     margin: 0;
+    background-color: rgba(0, 41, 75, 0.5);
 }
 
 h1 {
