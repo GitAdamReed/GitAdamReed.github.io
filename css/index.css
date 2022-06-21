@@ -32,7 +32,6 @@
     position: relative;
     overflow: auto;
     margin-left: 10vw;
-    
     max-width: 80%;
     max-height: 540px;
     font-family: Arial, Helvetica, sans-serif;
@@ -82,8 +81,8 @@
     transform: translateX(-50%);
     display: inline-block;
     padding: 10px 0;
-    width: 800px;
-    height: 600px;
+    width: 40vw;
+    height: 30vw;
 }
 
 /* Caption text */
@@ -118,6 +117,31 @@ h2 {
     padding: 10px;
     width: 100%;
     text-align: center;
+}
+
+.mySlides h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f2f2f2;
+    margin: 0;
+    opacity: 0;
+    z-index: 2;
+}
+
+.mySlides a:hover h4 {
+    transition: opacity 500ms linear;
+    opacity: 100%;
+}
+
+.mySlides a:hover img {
+    transition: filter 500ms linear;
+    filter: blur(4px);
+}
+
+#cSharpSlideHeading {
+    color: black;
 }
 
 @media screen and (max-width: 1000px) {
