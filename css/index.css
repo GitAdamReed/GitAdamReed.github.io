@@ -1,5 +1,3 @@
-* {box-sizing:border-box}
-
 .introImg {
     position: relative;
     width: 100%;
@@ -23,9 +21,23 @@
     width: 100%;
     height: auto;
     padding: 20px 0;
-    /*background-image: url(../images/unity_bg_opacity50.png);
-    background-size: cover;*/
-    /*background-color: rgba(0, 41, 75, 0.5);*/
+    color: white;
+    background-image: url("../images/code_opacity50.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(0, 0, 0);
+}
+
+.textWrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    opacity: 0.8;
+    z-index: -1;
 }
 
 .introP {
@@ -138,6 +150,7 @@ h2 {
 .mySlides a:hover img {
     transition: filter 500ms linear;
     filter: blur(4px);
+    -webkit-filter: blur(4px);
 }
 
 #cSharpSlideHeading {

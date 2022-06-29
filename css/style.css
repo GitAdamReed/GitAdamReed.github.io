@@ -1,3 +1,5 @@
+* {box-sizing:border-box}
+
 .navbar {
     position: sticky;
     position: -webkit-sticky;
