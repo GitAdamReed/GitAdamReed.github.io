@@ -1,19 +1,34 @@
-.introImg {
+.introBanner {
     position: relative;
     width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
-.introImg img {
-    width: 100%;
-    height: auto;
-    opacity: 0.8;
+.introBanner h1 {
+    margin: 0;
+    padding: 4vw;
 }
 
-.introImg h1 {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+.introBanner span {
+    height: 100%;
+}
+
+.introBanner #spanLeft, #spanRight {
+    color: white;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introBanner #spanM {
+    border-left: 2px solid rgba(20, 20, 20, 0.8);
+    border-right: 2px solid rgba(20, 20, 20, 0.8);
 }
 
 .textWrapper {
@@ -111,11 +126,6 @@
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     background-color: rgba(255, 255, 255, 0.8);
-}
-
-h1 {
-    padding: 20px 0;
-    text-align: center;
 }
 
 h2 {
