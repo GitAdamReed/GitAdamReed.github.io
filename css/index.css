@@ -1,8 +1,12 @@
+:root {
+    --lin-grad-1: linear-gradient(to bottom, #0b0917, black);
+}
+
 .introBanner {
     position: relative;
     width: 100%;
     text-align: center;
-    background-color: black;
+    background: var(--lin-grad-1);
     color: white;
     margin: 0;
     display: grid;
